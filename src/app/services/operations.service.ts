@@ -63,14 +63,16 @@ export class OperationsService {
   }
 
   getClasses() {
+    console.log("lista initiala: ", this.classes)
     return this.classes;
   }
 
   removeClass(className: any) {
     const index = this.classes.findIndex(c => c.name === className);
-    if (index >0) {
+    if (index > -1) {
       this.classes.splice(index, 1);
       console.log('clasa a fost stearsa')
+      console.log(this.classes)
     }
   }
 

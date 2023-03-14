@@ -7,9 +7,9 @@ import { ClassTableComponent } from './class-table/class-table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { OccupancyComponent } from './occupancy/occupancy.component';
-import { SearchComponent } from './class-table/search/search.component';
 import { FormsModule } from '@angular/forms';
 import { AddStudentDialogComponent } from './add-student-dialog/add-student-dialog.component';
+import { SearchComponent } from './class-table/search/search.component';
 
 @NgModule({
   declarations: [

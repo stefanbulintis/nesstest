@@ -20,10 +20,8 @@ export class ClassTableComponent implements OnInit{
 
   deleteClass(className: any) {
     this.operationsService.removeClass(className);
-   
-    
+    this.classes = this.classes.filter(item => item.className != className);
   }
-  
   
   onSearch(searchTerm: string) {
     this.classes = this.operationsService.getClasses().filter(c => {
