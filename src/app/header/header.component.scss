@@ -1,0 +1,51 @@
+mat-sidenav-container {
+    height: 100%;
+    ;
+    mat-sidenav {
+        background: #4b6cb7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
+
+
+      mat-nav-list {
+        
+        .menu-item {
+          margin-left: 8px;
+          margin-top: 10px;
+        }
+  
+        .chevron-button {
+          transition: 300ms ease-in-out;
+          transform: rotate(0deg);
+        }
+  
+        .chevron-button.rotated {
+          transform: rotate(180deg);
+        }
+        .active{
+          background-color: #8a8a8a;
+        }
+        
+      }
+    }
+    mat-toolbar{
+      
+        background: #4b6cb7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        color:#fff;
+        
+
+      mat-toolbar-row{
+        justify-content: center;
+        color:#fff;
+        align-items: center;
+      }
+    }
+  }
+  
+  
+  

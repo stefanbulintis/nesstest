@@ -1,0 +1,9 @@
+<mat-form-field>
+    
+    <mat-label>Search</mat-label>
+    <input matInput [(ngModel)]="searchTerm" placeholder="Search..." (input)="searchClasses()">
+  </mat-form-field>
+  <button mat-icon-button (click)="clearSearch()">
+    <mat-icon>clear</mat-icon>
+  </button>
+  

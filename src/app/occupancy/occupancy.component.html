@@ -1,0 +1,7 @@
+<div class="progress">
+    {{ occupancyPercentage }}%
+    <div class="progress-bar" [ngClass]="{'green': occupancyPercentage < 25, 'yellow': occupancyPercentage >= 25 && occupancyPercentage < 75, 'red': occupancyPercentage >= 75}" [style.width.%]="occupancyPercentage">
+      <span class="color-only">{{ occupancyPercentage }}%</span>
+    </div>
+</div>
+
