@@ -1,6 +1,6 @@
 mat-sidenav-container {
     height: 100%;
-    ;
+    
     mat-sidenav {
         background: #4b6cb7;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to left, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -12,8 +12,8 @@ mat-sidenav-container {
       mat-nav-list {
         
         .menu-item {
-          margin-left: 8px;
-          margin-top: 10px;
+          margin-left: 0.5rem;
+          margin-top: 0.625rem;
         }
   
         .chevron-button {
