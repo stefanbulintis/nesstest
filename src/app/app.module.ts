@@ -10,6 +10,8 @@ import { OccupancyComponent } from './occupancy/occupancy.component';
 import { FormsModule } from '@angular/forms';
 import { AddStudentDialogComponent } from './add-student-dialog/add-student-dialog.component';
 import { SearchComponent } from './class-table/search/search.component';
+import 'zone.js/dist/zone';
+import 'zone.js';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,7 @@ import { SearchComponent } from './class-table/search/search.component';
     HeaderComponent,
     OccupancyComponent,
     SearchComponent,
-    AddStudentDialogComponent
+    AddStudentDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +30,6 @@ import { SearchComponent } from './class-table/search/search.component';
     FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
